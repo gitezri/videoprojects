@@ -9,7 +9,7 @@ for chunk in output:
     print("First Generate Complete")
     context = chunk["context"]  
     
-output2 = ollama.generate(model="llama2", prompt="can it be another?", context=context);
+output2 = ollama.generate(model="llama3.2", prompt="can it be another?", context=context);
 # print(f"output with context\n\n{output2['response']}\n\noutput complete\n");
 
 
